@@ -17,6 +17,7 @@ public class Code_06_BucketSort {
 		int max = Integer.MIN_VALUE;
 		for (int i = 0; i < arr.length; i++) {
 			max = Math.max(max, arr[i]);
+//			注释4
 		}
 		//设置一个数组，长度比这个数组的最大值大1
 		int[] bucket = new int[max + 1];
