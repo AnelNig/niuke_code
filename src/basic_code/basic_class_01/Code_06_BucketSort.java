@@ -11,6 +11,7 @@ public class Code_06_BucketSort {
 	public static void bucketSort(int[] arr) {
 		if (arr == null || arr.length < 2) {
 			return;
+//			注释
 		}
 		//找到这个数组中的最大值
 		int max = Integer.MIN_VALUE;
